@@ -32,12 +32,16 @@ export const skillsSection = {
     subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
     skills: [
       emoji(
-        '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
+        '⚡  Develop highly interactive Front end / User Interfaces for your web applications'
       ),
-      emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
       emoji(
-        '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+          '⚡ Develop many additions to facilitate the work of the company and its users in the field of e-learning '
       ),
+      emoji(
+        '⚡ Integration of third party services such as ZOOM / GOTOWEBINAR / AWS '
+      ),
+
+
     ],
     
     softwareSkills: [
@@ -110,7 +114,7 @@ export const skillsSection = {
 export const SkillBars = [
     {
       Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-      progressPercentage: '90', //Insert relative proficiency in percentage
+      progressPercentage: '75', //Insert relative proficiency in percentage
     },
     {
       Stack: 'Backend',
@@ -118,7 +122,7 @@ export const SkillBars = [
     },
     {
       Stack: 'Programming',
-      progressPercentage: '60',
+      progressPercentage: '80',
     },
   ]
 
