@@ -82,10 +82,10 @@ const Navigation = () => {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href={socialLinks.instagram}
+                      href={socialLinks.gitlab}
                       target="_blank"
                     >
-                      <i className="fa fa-instagram" />
+                      <i className="fa fa-gitlab" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Instagram
                       </span>

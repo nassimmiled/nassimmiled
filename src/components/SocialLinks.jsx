@@ -29,12 +29,12 @@ const SocialLinks = () => {
                 </Button>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
-                  color="instagram"
-                  href={socialLinks.instagram}
+                  color="gitlab"
+                  href={socialLinks.gitlab}
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-instagram" />
+                    <i className="fa fa-gitlab" />
                   </span>
                 </Button>
                 <Button
