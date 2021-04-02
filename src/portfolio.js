@@ -5,8 +5,8 @@ import takiacademy from './assets/img/icons/common/takiacademy.svg';
 export const greetings = {
   'name': 'Nassim Miled',
   'title': 'Hi all, I\'m Nassim',
-  'description': 'A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / VueJs/ Nodejs / Laravel / Symfony  some other cool libraries and frameworks',
-  'resumeLink': 'https://cv.hanzla.ga',
+  'description': 'A passionate Full Stack Web Developer having an experience of building Web applications with JavaScript / Reactjs / VueJs/ Nodejs / Laravel / Symfony  some other cool libraries and frameworks',
+  // 'resumeLink': 'https://cv.hanzla.ga',
 };
 
 export const openSource = {
@@ -154,7 +154,12 @@ export const experience = [
     companylogo: takiacademy,
     date: 'May 2017 – May 2018',
     desc:
-        'Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Work on developing the site on the side of the admin, student and professor.',
+    descBullets: [
+      '',
+      'Working with teachers by guiding and assisting them when they encounter problems with live sessions or on the web site',
+      'Experience the site and make suggestions to the programming team to improve the site',
+    ],
   },
   {
     role: 'Customer Service Assistant',
@@ -162,10 +167,11 @@ export const experience = [
     companylogo: takiacademy,
     date: 'June 2018 – Present',
     desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'It was a beautiful period in which I learned a lot in dealing with clients and teachers',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Working with customers by listening to their problems and trying to find solutions to those problems',
+      'Working with teachers by guiding and assisting them when they encounter problems with live sessions or on the web site',
+      'Experience the site and make suggestions to the programming team to improve the site',
     ],
   },
 ];
