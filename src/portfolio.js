@@ -156,9 +156,10 @@ export const experience = [
     desc:
         'Work on developing the site on the side of the admin, student and professor.',
     descBullets: [
-      '',
-      'Working with teachers by guiding and assisting them when they encounter problems with live sessions or on the web site',
+      'Admin interface improvements and additions that facilitate their work and facilitate communication with customers',
+      'New improvements and additions in the student interface to facilitate dealing with the website',
       'Experience the site and make suggestions to the programming team to improve the site',
+      'Adding improvements and changes that contributed to improving the performance of the site',
     ],
   },
   {
