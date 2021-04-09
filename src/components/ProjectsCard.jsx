@@ -11,12 +11,12 @@ import { Fade } from 'react-reveal';
 
 const ProjectsCard = ({data}) => {
     return ( 
-        <Col lg="6">
+        <div lg="2" className="keen-slider__slide">
         <Fade bottom duration={1000} distance="40px">
-            <Card className="shadow-lg--hover shadow mt-4">
+            <Card>
             <CardBody>
                 <div className="d-flex px-3">
-                <div className="pl-4">
+                <div className="pl-5">
                     <h5 className="text-info">
                     {data.name}
                     </h5>
@@ -44,7 +44,7 @@ const ProjectsCard = ({data}) => {
             </CardBody>
         </Card>
         </Fade>
-        </Col>
+        </div>
      );
 }
  
