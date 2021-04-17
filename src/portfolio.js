@@ -179,8 +179,11 @@ export const experience = [
 
 export const projects = [
   {
-    name: 'lorem ipsum',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+    name: 'Calender',
+    desc:  emoji(
+        '⚡  Develop highly interactive Front end / User Interfaces for your web applications',
+    ),
+    imgId:"15WTbsP4XeVSjW3rDJPeiJbAIk4F4oVaY"
   },
   {
     name: 'lorem ipsum',

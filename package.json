@@ -36,6 +36,7 @@
     "colorthief": "^2.3.0",
     "graphql": "^15.4.0",
     "headroom.js": "0.11.0",
+    "keen-slider": "^5.4.0",
     "moment": "2.24.0",
     "node-sass": "4.13.1",
     "nouislider": "14.1.1",

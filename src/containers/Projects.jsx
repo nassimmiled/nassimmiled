@@ -1,11 +1,11 @@
-import React from 'react';
+import React,{useState} from 'react';
 import {Col, Container, Row} from 'reactstrap';
 import {useKeenSlider} from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import {projects} from '../portfolio';
 import ProjectsCard from '../components/ProjectsCard';
 import GreetingLottie from '../components/DisplayLottie';
-import swipe from '../assets/lottie/swipe-right.json'
+import swipe from '../assets/lottie/swipe-left.json'
 const Projects = () => {
   const [sliderRef] = useKeenSlider({
     slidesPerView: 4,
@@ -13,6 +13,7 @@ const Projects = () => {
     spacing: 15,
     loop: true,
   });
+  const [useSwipe, setUseSwipe] = useState(false);
   return (
       <Container fluid={false}>
         <Row xl={10}>
@@ -28,9 +29,15 @@ const Projects = () => {
                 <div className="pl-4">
                   <h4 className="display-3 text-info">Projects</h4>
                 </div>
+                <div className="pl-4">
+
+                </div>
               </div>
               <Row className="row-grid align-items-center">
-                <div className="keen-slider " ref={sliderRef}>
+                <div className="keen-slider " ref={sliderRef} onClick={()=>setUseSwipe(true)}>
+                  { !useSwipe &&
+                    <GreetingLottie animationData={swipe} width={160}/>
+                  }
                   {
                     projects.map(data => {
                       return <ProjectsCard data={data}/>;
@@ -44,7 +51,7 @@ const Projects = () => {
                   {/*<div className="keen-slider__slide number-slide5">5</div>*/}
                   {/*<div className="keen-slider__slide number-slide6">6</div>*/}
                 </div>
-                  <GreetingLottie animationData={swipe}/>
+
               </Row>
             </div>
           </Col>
