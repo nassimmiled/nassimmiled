@@ -172,7 +172,7 @@ export const experience = [
     descBullets: [
       'Working with customers by listening to their problems and trying to find solutions to those problems',
       'Working with teachers by guiding and assisting them when they encounter problems with live sessions or on the web site',
-      'Experience the site and make suggestions to the programming team to improve the site',
+      'Experience the site and make suggestions to the programming team to improve it',
     ],
   },
 ];
@@ -180,21 +180,38 @@ export const experience = [
 export const projects = [
   {
     name: 'Calender',
-    desc: emoji(
-      '⚡  Develop highly interactive Front end / User Interfaces for your web applications',
-    ),
-    imgId: "15WTbsP4XeVSjW3rDJPeiJbAIk4F4oVaY"
+    desc: [
+      '💠 New Live Sessions Flexible Calendar',
+      '💠 integrate calender page from template to React using Matriel ui and scss',
+      '💠 Make the calender dynamic like google calender. Session"s Box is proportional to its duartion, and its layout is resposive when encumbered'
+    ],
+    imgId: "1dMx3hOhgoUZWEYqVfIzLVx27KRqngTQT",
+    languages: ['React', 'Redux', 'MatrielUI', 'Scss']
   },
   {
-    name: 'lorem ipsum',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+    name: 'Offers',
+    desc: [
+      '💠 Create an offers page, containing all the offers for each section',
+      '💠 Colors and prices change dynamically according to the student"s choice'
+    ],
+    imgId: "1dMx3hOhgoUZWEYqVfIzLVx27KRqngTQT",
   },
   {
-    name: 'lorem ipsum',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-    link: {
-      name: 'hanzla',
-      url: 'kasjfklsdjf',
-    },
+    name: 'Exams',
+    desc: ['💠 Crafting a webpage for assignements : browsing, downloading, and uploading the user essay'],
+  },
+  {
+    name: 'Authentication system',
+    desc: ['💠 Implement an authentication system That contains the login, register, confirm, reset password pages'],
+  },
+  {
+    name: 'Rating live session',
+    desc: ['💠 Add the rating of live sessions, by choosing one of the emoji and adding a comment'],
+  },
+  {
+    name: 'Quiz(student interface)',
+  },
+  {
+    name: 'Quiz(Admin interface)',
   },
 ];
