@@ -5,8 +5,8 @@ import takiacademy from './assets/img/icons/common/takiacademy.svg';
 export const greetings = {
   'name': 'Nassim Miled',
   'title': 'Hi all, I\'m Nassim',
-  'description': 'A passionate Full Stack Web Developer having an experience of building Web applications with JavaScript / Reactjs / VueJs/ Nodejs / Laravel / Symfony  some other cool libraries and frameworks',
-  // 'resumeLink': 'https://cv.hanzla.ga',
+  'description': 'Passionate about Web Technologies. For the past two years i have been as Full Stack Web Developer.I have a diverse set of skills ranging from Design, Frontend , Backend Dev, all the way to Database Management, using a variety of robust languages such as Javascript and PHP and their modern frameworks. The ability to learn fast and elevate myself to new challenges is what i think picks me out.',
+  'resumeLink': 'https://drive.google.com/file/d/1PCCSajY3iSjtq8aAusfh3QgwnUqz5t4Z/view?usp=sharing',
 };
 
 export const openSource = {
@@ -28,13 +28,13 @@ export const skillsSection = {
   subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
   skills: [
     emoji(
-        '⚡  Develop highly interactive Front end / User Interfaces for your web applications',
+      '⚡  Develop highly interactive Front end / User Interfaces for your web applications',
     ),
     emoji(
-        '⚡ Develop many additions to facilitate the work of the company and its users in the field of e-learning ',
+      '⚡ Develop many additions to facilitate the work of the company and its users in the field of e-learning ',
     ),
     emoji(
-        '⚡ Integration of third party services such as ZOOM / GOTOWEBINAR / AWS ',
+      '⚡ Integration of third party services such as ZOOM / GOTOWEBINAR / AWS ',
     ),
 
   ],
@@ -154,7 +154,7 @@ export const experience = [
     companylogo: takiacademy,
     date: 'May 2017 – May 2018',
     desc:
-        'Work on developing the site on the side of the admin, student and professor.',
+      'Work on developing the site on the side of the admin, student and professor.',
     descBullets: [
       'Admin interface improvements and additions that facilitate their work and facilitate communication with customers',
       'New improvements and additions in the student interface to facilitate dealing with the website',
@@ -168,7 +168,7 @@ export const experience = [
     companylogo: takiacademy,
     date: 'June 2018 – Present',
     desc:
-        'It was a beautiful period in which I learned a lot in dealing with clients and teachers',
+      'It was a beautiful period in which I learned a lot in dealing with clients and teachers',
     descBullets: [
       'Working with customers by listening to their problems and trying to find solutions to those problems',
       'Working with teachers by guiding and assisting them when they encounter problems with live sessions or on the web site',
@@ -180,10 +180,10 @@ export const experience = [
 export const projects = [
   {
     name: 'Calender',
-    desc:  emoji(
-        '⚡  Develop highly interactive Front end / User Interfaces for your web applications',
+    desc: emoji(
+      '⚡  Develop highly interactive Front end / User Interfaces for your web applications',
     ),
-    imgId:"15WTbsP4XeVSjW3rDJPeiJbAIk4F4oVaY"
+    imgId: "15WTbsP4XeVSjW3rDJPeiJbAIk4F4oVaY"
   },
   {
     name: 'lorem ipsum',
