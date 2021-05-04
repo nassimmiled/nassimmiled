@@ -10,24 +10,23 @@ import Experience from './containers/Experience';
 import Projects from './containers/Projects';
 import GithubProfile from './containers/GithubProfile'
 const App = () => {
-    return ( 
+    return (
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact render={props => (
                     <>
                         <Navigation />
-                        <Greetings/>
+                        <Greetings />
                         <Skills />
                         <Proficiency />
                         <Education />
                         <Experience />
-                        <Projects />
                         <GithubProfile />
                     </>
-                )}/>
+                )} />
             </Switch>
         </BrowserRouter>
-     );
+    );
 }
- 
+
 export default App;
