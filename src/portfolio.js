@@ -6,7 +6,7 @@ export const greetings = {
   'name': 'Nassim Miled',
   'title': 'Hi all, I\'m Nassim',
   'description': 'Passionate about Web Technologies. For the past two years i have been as Full Stack Web Developer.I have a diverse set of skills ranging from Design, Frontend , Backend Dev, all the way to Database Management, using a variety of robust languages such as Javascript and PHP and their modern frameworks. The ability to learn fast and elevate myself to new challenges is what i think picks me out.',
-  'resumeLink': 'https://drive.google.com/file/d/1ExdEwAyNAhslhV-zGY3q3vVm6kryA2mo/view?usp=sharing',
+  'resumeLink': 'https://drive.google.com/file/d/1ExdEwAyNAhslhV-zGY3q3vVm6kryA2mo/view',
 };
 
 export const openSource = {
