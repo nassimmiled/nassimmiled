@@ -23,11 +23,11 @@ const ProjectsCard = ({ data }) => {
                     height={'220'}
                   />
                 }
-                {data ?.desc ?.map(des => {
+                {data?.desc?.map(des => {
                   return <p className="description mt-3">{des}</p>
                 })}
 
-                {data.languages ?.map(langauge => {
+                {data.languages?.map(langauge => {
                   return <span className="btn-neutral btn-icon" style={{ margin: '0px 2px', borderRadius: '3px', color: '#42bffd', padding: '1px' }}>
                     {langauge}
                   </span>
