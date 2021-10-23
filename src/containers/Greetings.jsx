@@ -1,14 +1,14 @@
-import React, { useEffect } from 'react';
-import { greetings } from '../portfolio';
-import code from '../assets/lottie/coding.json';
-import { Typewriter } from 'react-typewriting-effect';
+import React, { useEffect } from "react";
+import { greetings } from "../portfolio";
+import code from "../assets/lottie/coding.json";
+import Typewriter from "typewriter-effect";
 
-import { Fade } from 'react-reveal';
+import { Fade } from "react-reveal";
 
-import { Button, Col, Container, Row } from 'reactstrap';
+import { Button, Col, Container, Row } from "reactstrap";
 
-import GreetingLottie from '../components/DisplayLottie';
-import SocialLinks from 'components/SocialLinks';
+import GreetingLottie from "../components/DisplayLottie";
+import SocialLinks from "components/SocialLinks";
 
 const Greetings = () => {
   useEffect(() => {
@@ -36,17 +36,24 @@ const Greetings = () => {
                 <Row>
                   <Col lg="6">
                     <h1 className="display-3 text-white">
-                      {greetings.title + ' '}
+                      {greetings.title + " "}
                     </h1>
-                    <p className="lead text-white"><Typewriter
-                      string={greetings.description}
-                      delay={80}
-                      stopBlinkinOnComplete
-                    /></p>
+                    <p className="lead text-white">
+                      <Typewriter
+                        options={{
+                          strings: greetings.description,
+                          autoStart: true,
+                          loop: true,
+                        }}
+                      />
+                    </p>
                     <SocialLinks />
-                    <div className="btn-wrapper my-4"
-                      onClick={() => window.open(
-                        greetings.resumeLink, 'external')}>
+                    <div
+                      className="btn-wrapper my-4"
+                      onClick={() =>
+                        window.open(greetings.resumeLink, "external")
+                      }
+                    >
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                         color="default"
@@ -54,9 +61,7 @@ const Greetings = () => {
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
                         </span>
-                        <span className="btn-inner--text">
-                          See my resume
-                          </span>
+                        <span className="btn-inner--text">See my resume</span>
                       </Button>
                     </div>
                   </Col>
