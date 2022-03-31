@@ -9,7 +9,7 @@ export const greetings = {
     "Passionate about Web Technologies." +
     "For the past two years,i have been as Full Stack Web Developer.I have a diverse set of skills ranging from Design, Frontend , Backend Dev, all the way to Database Management, using a variety of robust languages such as Javascript and PHP and their modern frameworks. The ability to learn fast and elevate myself to new challenges is what i think picks me out.",
   resumeLink:
-    "https://drive.google.com/file/d/1HYkPlzHc9ApkLPthpNY7itgvjLdHFwVH/view?usp=sharing",
+    "https://drive.google.com/file/d/1q80gYCUHR9XRRTkuOK2w32evFEpmcjMf/view?usp=sharing",
 };
 
 export const openSource = {
