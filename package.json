@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/creativetimofficial/argon-design-system-react.git"
   },
-  "author": "1hanzla100",
+  "author": "nassim",
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
