@@ -41,11 +41,6 @@
   <img src="https://streak-stats.demolab.com?user=nassimmiled&theme=github-dark-blue&hide_border=true&background=0d1117" alt="Contribution streak" />
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nassimmiled/nassimmiled/output/github-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/nassimmiled/nassimmiled/output/github-snake.svg" alt="Snake eating my contributions" />
-</picture>
-
 <div align="center">
 
 ### 🤝 Say hi
