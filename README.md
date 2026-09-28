@@ -28,16 +28,16 @@
 ### 📊 GitHub stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nassimmiled&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nassimmiled&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff" alt="Top languages" />
+  <img src="profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile details" />
+</p>
+
+<p align="center">
+  <img height="180" src="profile-summary-card-output/github_dark/3-stats.svg" alt="Stats" />
+  <img height="180" src="profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repos per language" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=nassimmiled&theme=github-dark-blue&hide_border=true&background=0d1117" alt="Contribution streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nassimmiled&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true" alt="Contribution graph" />
 </p>
 
 <picture>
