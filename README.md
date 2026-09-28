@@ -4,6 +4,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Sousse%2C%20Tunisia-0d1117?style=for-the-badge&logo=googlemaps&logoColor=58A6FF" alt="Sousse, Tunisia" />
+  <a href="https://www.linkedin.com/in/nassim-miled/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <img src="https://komarev.com/ghpvc/?username=nassimmiled&style=for-the-badge&color=58a6ff&label=profile+views" alt="Profile views" />
 </p>
 
@@ -50,5 +51,7 @@
 ### 🤝 Say hi
 
 Open to freelance work and interesting collaborations.
+
+<a href="https://www.linkedin.com/in/nassim-miled/"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
 
 </div>
